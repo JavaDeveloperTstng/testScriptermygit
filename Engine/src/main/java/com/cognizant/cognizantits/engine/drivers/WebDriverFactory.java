@@ -469,7 +469,7 @@ public class WebDriverFactory {
         }
 
         options.addArguments("--start-maximized");
-        
+        options.setExperimentalOption("useAutomationExtension",false);
         options = addChromeOptions(options);
         caps.setCapability(ChromeOptions.CAPABILITY, options);
         return caps;
