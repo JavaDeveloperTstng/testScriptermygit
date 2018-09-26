@@ -40,6 +40,8 @@
         
         <geherkin.version>4.0.0</geherkin.version>
         <autocomplete.version>2.6.1</autocomplete.version>
+        <autocomplete.version>2.6.1</autocomplete.version>
+        <jsch.version>0.1.53</jsch.version>
         
         <setupDir>../Dist/release</setupDir>
         <resourceDir>../Resources</resourceDir>  
